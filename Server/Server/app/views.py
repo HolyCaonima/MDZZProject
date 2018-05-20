@@ -44,3 +44,16 @@ def about(request):
             'year':datetime.now().year,
         }
     )
+
+def ylttest(request):
+    """Return the api test page."""
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/ylttest.html',
+        {
+            'title':'yltApiTest',
+            'message':'Page for testing server APIs.',
+            'year':datetime.now().year,
+        }
+    )

@@ -36,6 +36,9 @@
     <Compile Include="app\__init__.py" />
     <Compile Include="app\migrations\__init__.py" />
     <Compile Include="manage.py" />
+    <Compile Include="Server\backend\request.py" />
+    <Compile Include="Server\backend\user\__init__.py" />
+    <Compile Include="Server\backend\__init__.py" />
     <Compile Include="Server\__init__.py" />
     <Compile Include="Server\settings.py" />
     <Compile Include="Server\urls.py" />
@@ -52,6 +55,8 @@
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="Server\" />
+    <Folder Include="Server\backend\" />
+    <Folder Include="Server\backend\user\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />

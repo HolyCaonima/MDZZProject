@@ -9,6 +9,8 @@ import django.contrib.auth.views
 import app.forms
 import app.views
 
+import Server.backend.request as req
+
 # Uncomment the next lines to enable the admin:
 # from django.conf.urls import include
 # from django.contrib import admin
@@ -19,6 +21,8 @@ urlpatterns = [
     url(r'^$', app.views.home, name='home'),
     url(r'^contact$', app.views.contact, name='contact'),
     url(r'^about', app.views.about, name='about'),
+    url(r'^ylttest', app.views.ylttest, name='ylttest'),
+    url(r'^fuckme', req.fuckme, name='fuckme'),
     url(r'^login/$',
         django.contrib.auth.views.login,
         {
