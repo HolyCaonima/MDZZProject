@@ -1,2 +1,3 @@
-D:\Project\MDZZServer\Server\Server\env\Scripts\python.exe D:\Project\MDZZServer\Server\Server\manage.py makemigrations app 
-D:\Project\MDZZServer\Server\Server\env\Scripts\python.exe D:\Project\MDZZServer\Server\Server\manage.py migrate app
+.\env\Scripts\python.exe .\manage.py makemigrations app 
+.\env\Scripts\python.exe .\manage.py migrate app
+pause
